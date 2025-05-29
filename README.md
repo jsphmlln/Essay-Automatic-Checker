@@ -1,6 +1,6 @@
 # Essay Automatic Checker
 
-**Essay Automatic Checker** is a Python-based grading system for open-ended questions. It uses the **Gemini Large Language Model (LLM)** API to extract and evaluate student responses from scanned answer sheets. This system was developed alongside a camera-based automated paper feeding and capturing prototype as part of a college-level Design Project course.
+**Essay Automatic Checker** is a Python-based grading system for open-ended questions. It uses the **Gemini Large Language Model (LLM)** API to extract and evaluate student responses from scanned answer sheets. This system was developed alongside a camera-based automated paper feeding and capturing prototype as part of our college-level Design Project course.
 
 ## Features
 

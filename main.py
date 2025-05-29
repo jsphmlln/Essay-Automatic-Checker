@@ -501,7 +501,7 @@ def process_images_3():
 def process_grades_1():
     global graded_tasks
     print("API1 GRADING STARTED")
-    while not stop_grading_1:  # ✅ Stop loop when grading is canceled
+    while not stop_grading_1:  # Stop loop when grading is canceled
         try:
             image_path, question, answer = grade_queue_1.get(block=True, timeout=1)  # Prevent deadlocks
         except queue.Empty:

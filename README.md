@@ -24,7 +24,7 @@
 
 3. Set up sender email credentials:
 
-   Open `EAS_main.py`, and update the `send_email_with_attachment()` function with:
+   Open `main.py`, and update the `send_email_with_attachment()` function with:
    - Your sender email address
    - An app-specific password (not your regular password)
 

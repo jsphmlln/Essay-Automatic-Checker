@@ -24,7 +24,7 @@ from PIL import Image, ImageTk
 from pathlib import Path
 from email.message import EmailMessage
 import mysql.connector
-
+from camera import capture
 
 #=IMAGE QUEUE=#
 image_queue_1 = queue.Queue()
@@ -1552,5 +1552,6 @@ threading.Thread(target=process_images_1, daemon=True).start()
 threading.Thread(target=process_images_2, daemon=True).start()
 threading.Thread(target=process_images_3, daemon=True).start()
 threading.Thread(target=start_monitoring, daemon=True).start()
+#threading.Thread(target=capture, daemon=True).start() #used when attached to hardware prototype
 
 root.mainloop()
